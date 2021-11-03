@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué Comemos Hoy?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     
+<div class="container">
+    <h1>Buscador de Comidas</h1>
+    <div class="flex">
+        <form class="flex" id="submit">
+            <input type="text" id="search" placeholder="Busca aqui una comida">
+           <button class="search-btn" type="submit">
+             <i class="fa fa-search"></i>
+           </button>
+        </form>
+        <button class="random-btn" id="random">
+            <i class="fas fa-random"></i>
+        </button>
+    </div>
+
+    <div id="result-heading"></div>
+    <div id="meals"></div>
+    <div id="single-meal"></div>
+
+    
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous"></script>
+<script src="javascript.js"></script>
+</body>
+</html>
